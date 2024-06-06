@@ -1,3 +1,10 @@
+// 4) Foi realizada uma pesquisa entre 500 habitantes de uma certa região. 
+// De cada habitante foram coletados os dados: idade, sexo, salário e número de filhos. 
+// Crie a estrutura de dados adequada para armazenar estas informações e 
+// faça uma função que armazene as informações digitadas pelo usuário na estrutura de dados criada. 
+// Faça também uma função que calcula a média do salário dos habitantes.
+
+
 #include <stdio.h>
 
 // Definição da estrutura Habitante
@@ -35,7 +42,7 @@ float calcularMediaSalario(struct Habitante habitantes[], int tamanho) {
 }
 
 int main() {
-    const int NUM_HABITANTES = 500;
+    #define NUM_HABITANTES 500
     struct Habitante habitantes[NUM_HABITANTES];
 
     // Ler os dados dos habitantes
